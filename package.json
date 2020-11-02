@@ -1,0 +1,29 @@
+{
+  "name": "API-IMC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertallan/API-IMC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertallan/API-IMC/issues"
+  },
+  "homepage": "https://github.com/albertallan/API-IMC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
